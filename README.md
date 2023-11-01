@@ -1,8 +1,6 @@
-# CP-AND101-22-FinalProject
-
 <!-- (This is a comment) INSTRUCTIONS: Go through this page and fill out any **bolded** entries with their correct values.-->
 
-# AND101 Milestone 1 - **Group 22/App Name**
+# -AND101-Milestone-1---Group-22
 
 Submitted by:
 - **Ruth Mfon-Uko**
