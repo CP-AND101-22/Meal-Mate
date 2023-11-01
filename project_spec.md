@@ -1,4 +1,4 @@
-# **APP_NAME_HERE**
+# **Meal Mate**
 
 ## Table of Contents
 
@@ -17,8 +17,8 @@
 
 <!-- Evaluation of your app across the following attributes -->
 
-- **Category:**
-- **Mobile:**
+- **Category:Food**
+- **Mobile:Android**
 - **Story:**
 - **Market:**
 - **Habit:**
@@ -30,30 +30,30 @@
 
 Required Features:
 
-- **fill in here**
-- ...
+- **Dispaly Recipes**
+
 
 Stretch Features:
 
-- **fill in here**
-- ...
+- **Display recipes by category or Area**
+
 
 ### 2. Chosen API(s)
 
-- **list first API endpoint here**
-  - **list associated required feature here**
-  - ...
-- ...
+- **www.themealdb.com/api/json/v1/1/categories.php**
+  - **Get the recipes categories**
+- **www.themealdb.com/api/json/v1/1/search.php?s=Arrabiata**
+  - ***Search the recipe by name*
 
 ### 3. User Interaction
 
 Required Feature
 
-- **list first user action here**
-  - => **list result of user action here**
+- **Search recipe by name**
+  - => **Display the recipes with the given name**
   - ...
-- **list second user action here**
-  - => **list result of user action here**
+- **View recipes**
+  - => **Randomly view the recipes**
   - ...
 
 ## Wireframes
@@ -74,7 +74,7 @@ For Milestone 2, include **2+ Videos/GIFs** of the build process here!
 
 ## License
 
-Copyright **yyyy** **your name**
+Copyright **2023** **Lingyu Hu**
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
