@@ -47,7 +47,7 @@ Stretch Features:
 - **www.themealdb.com/api/json/v1/1/categories.php**
   - **Get the recipes categories**
 - **www.themealdb.com/api/json/v1/1/search.php?s=Arrabiata**
-  - ***Search the recipe by name*
+  - **Search the recipe by name**
 
 ### 3. User Interaction
 
