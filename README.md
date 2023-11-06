@@ -1,23 +1,20 @@
-<!-- (This is a comment) INSTRUCTIONS: Go through this page and fill out any **bolded** entries with their correct values.-->
-
-# AND101--Milestone1--Group-22/Meal Mate
+# Milestone 1: The Beginnings of Meal Mate
+Documenting the first milestone of an AND101 capstone project by Group 22.
 
 Submitted by:
-- **Ruth Mfon-Uko**
 - **Abinaya Damodaran**
 - **Lingyu Hu**
+- **Ruth Mfon-Uko**
 
-Time spent: **X** hours spent in total
+Time spent: **6** hours spent in total
 
 ## Summary
 
-This document provides an overview, project spec, and wireframes for our team's capstone project: An app that **displays different recipes based on the user's choice**
+This document provides an overview, project spec, and wireframes for our team's capstone project: Meal Mate. An app that **displays different recipes based on the user's leftover ingredient that's about to expire!**
 
-If we had to describe this milestone in three (3) emojis, they would be: **emojis here**
+If we had to describe this milestone in three (3) emojis, they would be: **🍲🥑👨🏼‍🍳**
 
 ## Milestone Requirements
-
-<!-- Please be sure to change the [ ] to [x] for any features you completed.  If a feature is not checked [x], you might miss the points for that item! -->
 
 The following REQUIRED features are completed:
 
@@ -26,10 +23,10 @@ The following REQUIRED features are completed:
 
 The following REQUIRED files are included:
 
-- [ ] Included 📄 `brainstorming.md`, which contains:
-  - [ ] Our initial brainstorming ideas (6+ ideas)
-  - [ ] 5-category evaluation of our top 3 ideas
-  - [ ] Final app idea chosen
+- [x] Included 📄 `brainstorming.md`, which contains:
+  - [x] Our initial brainstorming ideas (6+ ideas)
+  - [x] 5-category evaluation of our top 3 ideas
+  - [x] Final app idea chosen
 - [ ] Included 📄 `project_spec.md`, which contains:
   - [ ] App Overview: Description and evaluation
   - [ ] App Spec: User features, Chosen API(s), User Interactions
@@ -40,10 +37,6 @@ The following BONUS features are implemented:
 - [ ] Added digital wireframe/mockup image(s)
 - [ ] Added a Video/GIF of an interactive prototype
 
-The following EXTRA features are implemented:
-
-- [ ] List anything else that you added to improve your submission!
-
 ## Notes
 
-Here's a place for any other notes on this milestone!
+Collaborating outside of class lab hours was not possible this time, so hope to foster better communication (on Slack or a schedule midweek call) to distribute the workload evenly among team members in the next milestone!
