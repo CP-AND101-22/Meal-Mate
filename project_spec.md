@@ -29,11 +29,11 @@ Meal Mate allows users to search for recipes based on a leftover ingredient that
 Required Features:
 
 - Display recipes
-- Can search and store recipes in table view format
+  - **Search by name** and display recipes in table view format
+  - Display recipes **by category**
 
 Stretch Features:
-
-- Display recipes by category or area
+- Expand search functionality to look up recipes by ingredient
 - Modify recipes to your liking
 - A way of organising your favourite recipes
 - A random meal generator- user can choose area or category or just go with completely random option
@@ -51,22 +51,27 @@ Stretch Features:
 
 ### 3. User Interaction
 
-Required Feature
+Required Features
 
-- **Search recipe by name**
-  - => **Display the recipes with the given name**
+- View recipes
+  => Randomly view the recipes by default when on the home page.
+ 
+- Search recipes by name
+  => Display the recipes with the given name
+ 
+- Search recipes by category
+  => Display the recipes under a category when selected in the spinner
 
-- **View recipes**
-  - => **Randomly view the recipes**
+- Tab bar navigation between recipe lookup & category search screens
 
 ## Wireframes
-
-<!-- Add picture of your hand sketched wireframes in this section -->
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+![IMG_1062](https://github.com/CP-AND101-22/Meal-Mate/assets/78409617/f4b5e23b-b9f9-4f76-a50b-0954a66e1e2b)
 
 ### [BONUS] Digital Wireframes & Mockups
+TBD by the extension period.
 
 ### [BONUS] Interactive Prototype
+TBD by the extension period.
 
 ## Build Notes
 
