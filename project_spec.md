@@ -9,8 +9,6 @@
 
 ## App Overview
 
-### Description 
-
 Meal Mate allows users to search for recipes based on a leftover ingredient that's about to expire!
 
 ### App Evaluation
@@ -25,55 +23,63 @@ Meal Mate allows users to search for recipes based on a leftover ingredient that
 ## Product Spec
 
 ### 1. User Features (Required and Optional)
+    
+Required features:
+- [x] Meal category list
+      Description: Recycler view that displays meal categories, populated with data from an API endpoint
+      Goal Time: Nov 10 (Fri)
+      Collaborator: Ruth
+- [x] Search page
+      Description: Home page with a recipe search bar (to search by main ingredient) & a button to see meal categories
+      Goal Time: Nov 11 (Sat)
+      Collaborator: Lingyu
+- [x] Recipe results by ingredient
+      Description: Recycler view that displays recipe names & images based on the main ingredient searched, populated with data from an API call
+      Goal Time: Nov 12 (Sun)
+      Collaborator: Ruth
 
-Required Features:
-
-- Display recipes
-  - **Search by name** and display recipes in table view format
-  - Display recipes **by category**
-
-Stretch Features:
-- Expand search functionality to look up recipes by ingredient
-- Modify recipes to your liking
-- A way of organising your favourite recipes
-- A random meal generator- user can choose area or category or just go with completely random option
-- If the user likes a recipe, they can add it to their wish list
-- Use another API to display number of calories 
-- Calendar view with the meals you made highlighted
-- Including an allergies, or ‘ingredients you dislike’ filter
+Stretch features:
+- [x] Recipe instructions page
+      Description: Detail view that displays recipe instructions when a recipe name is clicked in the above recycler view, by passing the recipe id & getting data from another API endpoint
+      Goal Time: Nov 13 (Mon)
+      Collaborator: Abinaya
+- [ ] Random meal generator: user can choose area or category or just go with completely random option
+- [ ] Include an allergies, or ‘ingredients you dislike’ filter
+- [ ] Use another API to display number of calories 
+- [ ] A way to organise & save your favourite recipes
+- [ ] Calendar view with the meals you made highlighted
+- [ ] Expand search functionality to look up recipes by multiple ingredients
+- [ ] Modify existing recipes to your liking
 
 ### 2. Chosen API(s)
 
+- **www.themealdb.com/api/json/v1/1/filter.php?i=chicken_breast**
+  - Search recipe names by main ingredient
+- **www.themealdb.com/api/json/v1/1/lookup.php?i=52772**
+  - Lookup recipe instructions by id
 - **www.themealdb.com/api/json/v1/1/categories.php**
-  - **Get the recipes categories**
-- **www.themealdb.com/api/json/v1/1/search.php?s=Arrabiata**
-  - **Search the recipe by name**
+  - Get the recipes categories
 
 ### 3. User Interaction
 
 Required Features
-
-- View recipes
-  => Randomly view the recipes by default when on the home page.
  
-- Search recipes by name
-  => Display the recipes with the given name
- 
-- Search recipes by category
-  => Display the recipes under a category when selected in the spinner
+- [x] Click meal categories button
+  => Display the meal categories
 
-- Tab bar navigation between recipe lookup & category search screens
+- [x] Search recipes by main ingredient
+  => Display recipe names
+
+Stretch Features
+
+- [x] See recipe instructions
+  => Display the recipe instructions when recipe name is selected
+- [ ] Tab bar navigation between recipe lookup & category search screens
 
 ## Wireframes
 ![IMG_1062](https://github.com/CP-AND101-22/Meal-Mate/assets/78409617/f4b5e23b-b9f9-4f76-a50b-0954a66e1e2b)
 
-### [BONUS] Digital Wireframes & Mockups
-TBD by the extension period.
-
-### [BONUS] Interactive Prototype
-TBD by the extension period.
-
-## Build Notes
+## Build Notes (including GIFs of the build process from Milestone 2)
 
 Here's a place for any other notes on the app, it's creation 
 process, or what you learned this unit!  
