@@ -43,22 +43,24 @@ The following REQUIRED files are included:
   - [X] App Overview (Milestone 1)
   - [X] App Spec (Milestone 1)
   - [x] Checked off 2+ completed features
-  - [ ] 2+ Videos/GIFs of build progress
+  - [x] 2+ Videos/GIFs of build progress
 
-- [ ] Our 🎥 Demo Video
-  - [ ] We have also added the Demo Video Link to the Group Info Form on the course portal.
+- [x] Our 🎥 Demo Video
+  - [x] We have also added the Demo Video Link to the Group Info Form on the course portal.
 
 ## 🎥 Demo Video
 
-Here's a video that demos all of the app's implemented features:
+Here's a video that demos all of the app's implemented features. 
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Demo' width='' alt='Video Demo' />
+⚠️ Click the play button and press the unmute button on the top-right corner to hear the narrated demo.
 
-VIDEO created with **Loom**
+https://github.com/CP-AND101-22/Meal-Mate/assets/78409617/44813dd6-e5bc-409e-817e-aa69397f6f1c
+
+VIDEO created with **Vimeo**
 
 ## Notes
 
-Here's a place for any other notes on this milestone!
+Version control was the biggest challenge in this milestone with various branches across team members, but we're happy to have shipped the very first version of Meal Mate!
 
 # Milestone 1: The Beginnings of Meal Mate
 Documenting the first milestone of an AND101 capstone project by Group 22.
