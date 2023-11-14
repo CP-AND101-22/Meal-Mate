@@ -39,11 +39,11 @@ class SearchResultActivity : AppCompatActivity() {
         }
     }
 
-    private fun getRecipes(searchQuery:String){
+    private fun getRecipes(searchQuery: String) {
         val client = AsyncHttpClient()
-        val apiURl = "https://www.themealdb.com/api/json/v1/1/filter.php?i=$searchQuery"
+        val apiURL = "https://www.themealdb.com/api/json/v1/1/filter.php?i=$searchQuery"
 
-        client[apiURl,object : JsonHttpResponseHandler(){
+        client[apiURL, object : JsonHttpResponseHandler() {
             override fun onFailure(
                 statusCode: Int,
                 headers: Headers?,
@@ -51,27 +51,41 @@ class SearchResultActivity : AppCompatActivity() {
                 throwable: Throwable?
             ) {
                 Log.d("API Error", response)
+                // Handle failure, show a message, or take appropriate action
+                Toast.makeText(this@SearchResultActivity, "Failed to fetch meals. Please try again.", Toast.LENGTH_SHORT
+                ).show()
             }
 
             override fun onSuccess(statusCode: Int, headers: Headers, json: JsonHttpResponseHandler.JSON) {
-                val recipeArray = json.jsonObject.getJSONArray("meals")
+                try {
+                        val recipeArray = json.jsonObject.getJSONArray("meals")
 
-                for (i in 0 until recipeArray.length()) {
-                    val recipeObject = recipeArray.getJSONObject(i)
-                    recipeInfo.add(recipeObject.getString("strMeal"))         //add string from helper function
-                    recipeImages.add(recipeObject.getString("strMealThumb")) //get image URL and add to array
+                        for (i in 0 until recipeArray.length()) {
+                            val recipeObject = recipeArray.getJSONObject(i)
+                            recipeInfo.add(recipeObject.getString("strMeal"))
+                            recipeImages.add(recipeObject.getString("strMealThumb"))
+                        }
+
+                        val adapter = recipeAdapter(recipeInfo, recipeImages)
+                        rvRecipe.adapter = adapter
+                        rvRecipe.layoutManager = LinearLayoutManager(this@SearchResultActivity)
+                        rvRecipe.addItemDecoration(
+                            DividerItemDecoration(
+                                this@SearchResultActivity,
+                                LinearLayoutManager.VERTICAL
+                            )
+                        )
+
+                } catch (e: Exception) {
+                    // Handle JSON parsing exception if entry doesn't exist
+                    e.printStackTrace()
+                    Log.e("JSON Parsing Error", "Error parsing JSON", e)
+                    Toast.makeText(this@SearchResultActivity, "Failed to fetch meal for that ingredient. Please try again.", Toast.LENGTH_SHORT).show()
+
+                    finish()
                 }
-                val adapter = recipeAdapter(recipeInfo, recipeImages)  //load to adapter
-                rvRecipe.adapter = adapter
-                rvRecipe.layoutManager = LinearLayoutManager(this@SearchResultActivity)
-                rvRecipe.addItemDecoration(
-                    DividerItemDecoration(
-                        this@SearchResultActivity,
-                        LinearLayoutManager.VERTICAL
-                    )
-                )
             }
-
         }]
     }
+
 }
