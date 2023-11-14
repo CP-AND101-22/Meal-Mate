@@ -21,15 +21,19 @@ The following REQUIRED features are completed:
 
 App features:
 - [x] Meal category list
+      
       Description: Recycler view that displays meal categories, populated with data from an API endpoint
       Goal Time: Nov 10 (Fri) by Ruth
 - [x] Search page
+      
       Description: Home page with a recipe search bar (to search by main ingredient) & a button to see meal categories
       Goal Time: Nov 11 (Sat) by Lingyu
 - [x] Recipe results by ingredient
+
       Description: Recycler view that displays recipe names & images based on the main ingredient searched, populated with data from an API call
       Goal Time: Nov 12 (Sun) by Ruth
 - [x] Recipe instructions page
+      
       Description: Detail view that displays recipe instructions when a recipe name is clicked in the above recycler view, by passing the recipe id & getting data from another API endpoint (by Abinaya)
       Goal Time: Nov 13 (Mon) by Abinaya
 
