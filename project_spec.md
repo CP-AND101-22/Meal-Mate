@@ -81,10 +81,18 @@ Stretch Features
 
 ## Build Notes (including GIFs of the build process from Milestone 2)
 
-Here's a place for any other notes on the app, it's creation 
-process, or what you learned this unit!  
+This sprint was intense, but rewarding!
 
-For Milestone 2, include **2+ Videos/GIFs** of the build process here!
+First commit with a recycler view displaying meal categories fetched from an API:
+![Meal Mate Build1](https://github.com/CP-AND101-22/Meal-Mate/assets/78409617/e9804394-8ffc-4129-9916-e4242d5e7d0d)
+
+Second commit with search bar leading to categories regardless of what is typed:
+![Meal Mate Build2](https://github.com/CP-AND101-22/Meal-Mate/assets/78409617/a92ce560-b63a-40c2-b5a5-838c5a994ef1)
+
+Third commit with search bar leading to the correct recipe list & a button leading to meal categories:
+![Meal Mate Build3](https://github.com/CP-AND101-22/Meal-Mate/assets/78409617/cd9fb1b3-373d-4279-a96e-2cb4a8cbc61c)
+
+Final commit is shown in the narrated demo (see README file).
 
 ## License
 
